@@ -1,4 +1,5 @@
-本项目来自Rychou的GITHUB。
+本项目来自Rychou的GITHUB，整体操作非常简单，可以按照网络教程快速部署。
+
 # 纪念日网页
 
 技术栈：
@@ -43,7 +44,7 @@ npm start
 componentDidMount() {
     this.print();
     setInterval(() => {
-        this.time(2016, 4, 23) // 1.填写纪念日
+        this.time(2021,8, 20) // 1.填写纪念日
     }, 1000
     )
     var audio = document.getElementById("audio");
