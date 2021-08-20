@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src"
+    "\\public\\css",
+    "\\public\\img",
+    "\\src",
+    "\\src\\audio"
   ],
-  "SelectedNode": "\\public\\index.html",
+  "SelectedNode": "\\src\\animateplus.js",
   "PreviewInSolutionExplorer": false
 }
