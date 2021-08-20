@@ -16,7 +16,7 @@
 ### 将本仓库克隆到本地
 
 ```shell
-git clone https://github.com/Rychou/two_years
+git clone https://github.com/Rychou/two_years（来自Rychou的GITHUB。）
 ```
 
 ### 同步依赖
