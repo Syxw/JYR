@@ -13,7 +13,7 @@ class Main extends Component {
     componentDidMount() {
         this.print();
         setInterval(() => {
-            this.time(2021, 8, 20) // 你们的纪念日
+            this.time(2021, 4, 30) // 纪念日
         }, 1000
         )
         var audio = document.getElementById("audio");
@@ -65,7 +65,7 @@ class Main extends Component {
         const date = () => {
             if (this.state.date.d !== undefined) {
                 const { d, hour, minute, second } = this.state.date
-                return (<p>我们已经一起走过了: <span className="date-text">{d}</span> 天 <span className="date-text">{hour}</span> 小时 <span className="date-text">{minute}</span> 分 <span className="date-text">{second}</span> 秒 </p>
+                return (<p>距离2021年4月30日已过去: <span className="date-text">{d}</span> 天 <span className="date-text">{hour}</span> 小时 <span className="date-text">{minute}</span> 分 <span className="date-text">{second}</span> 秒 </p>
                 )
             }
         }
@@ -73,20 +73,23 @@ class Main extends Component {
             <div className="App animated bounceInLeft">
                 <div className="date">{date()}</div>
                 <div id="autotype">
-                    <h1 style={{ fontWeight: 900 }}>哈喽！</h1>
-                    <p >你打开之后，先放首歌当背景音乐吧！Music!</p>
-                    <p>今天是周几呢</p>
-                    <p>你猜啊！
+                    <h1 style={{ fontWeight: 900 }}>嗨~</h1>
+                    <p ><br/>名字
+                    </p>
+                    <p>本来这里敲了不少字，读了读觉得太矫情，还是用前端的方式做一个OVER吧.</p>
+                    <p>许久以来，多有打扰.
                 </p>
-                    <p>做了一个尝试。
+                    <p>ps.记得我和你说过的那家咖啡店吗？希望午后的甜点配上一杯牛奶能让你有一个好心情.^_^
                 </p>
-                    <p>目前看来很成功。
+                    <p> ps.这段时间我试了不少办法，黑眼圈似乎得陪伴我们一辈子了.
                 </p>
-                    <p>可以用来做一些有趣的事情。
+                    <p><br/>
                 </p>
-                    <p>这是第一个版本。</p>
+                    <p>那么，名字，我就先行告退了.
+                </p>
+                    <p></p>
                     <div style={{ textAlign: 'right' }}>
-                        <p>有趣的人</p>
+                        <p>愿你那璀璨的笑容能一直保持</p>
                         <p>2021年8月20日</p>
                     </div>
                 </div>

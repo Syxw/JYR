@@ -100,8 +100,8 @@ var scope = {
 }(scope);
 
 if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    window.addEventListener('resize', function () {
-        scope.ctx.canvas.width = window.innerWidth;
-        scope.ctx.canvas.height = window.innerHeight;
-    });
+  window.addEventListener('resize', function () {
+    scope.ctx.canvas.width = window.innerWidth;
+    scope.ctx.canvas.height = window.innerHeight;
+  });
 }
